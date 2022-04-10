@@ -9,7 +9,7 @@ public class Exercise_0412 {
 		TIMES: for(int i = 1; i <= 3; i++) {
 			for(int j = k; j <= 9; j++) {
 				System.out.print(j + "*" + i + "=" + i*j +"\t");
-				if (j ==4 || j == 7 || j == 9) {
+				if (j == 4 || j == 7 || j == 9) {
 					System.out.println();
 					if(i < 3) {
 					continue TIMES;
